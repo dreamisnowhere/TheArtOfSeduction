@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- <html manifest="TheArtOfSeduction.manifest"> 애플리케이션 캐시를 위한 매니페스트 파일 선언 -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>작업의 정석</title>
+		
+		<!-- JQuery와 JQuery Mobile 라이브러리 파일 -->
+		<link type="text/css" rel="stylesheet" href="./css/jquery/jquery.mobile-1.0a4.1.min.css" />
+		<script type="text/javascript" src="./js/jquery/jquery-1.5.2.min.js"></script>
+		<script type="text/javascript" src="./js/jquery/jquery.mobile-1.0a4.1.min.js"></script>
+		
+		<!-- 레이아웃(css)과 동작(javascript)을 분리 -->
+		<link type="text/css" rel="stylesheet" href="./css/style.css" />
+		
+		<!-- 아이폰 홈화면 아이콘 -->
+		<link rel="apple-touch-icon-precomposed" href="./apple-touch-icon.png">
+	</head>
+	<body>
+		<!-- 메인 페이지 -->
+		<div data-role="page">
+			<div data-role="header" data-theme="b">
+				<h1>작업의 정석</h1>
+			</div>
+			<div data-role="content" data-theme="d">
+				<div class="main_img"><img src="./images/title_image.png" /></div>
+				<div data-role="controlgroup">
+					<a href="./getphonenum/intro.html" data-role="button" rel="external">전화번호 알아맞히기</a>
+					<a href="./getbirth/intro.html" data-role="button" rel="external">생일날짜 알아맞히기</a>
+					<a href="./getthinknum/intro.html" data-role="button" rel="external">생각한 숫자 알아맞히기</a>
+					<a href="./getdelnum/intro.html" data-role="button" rel="external">없앤 숫자 알아맞히기</a>
+				</div>
+				<!-- 
+				<p class="tac">
+                    	<script type="text/javascript">
+							google_ad_client = "ca-pub-4886873347070954";
+							/* mobile_ad */
+							google_ad_slot = "7829763333";
+							google_ad_width = 234;
+							google_ad_height = 60;
+						</script>
+						<script type="text/javascript"
+							src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+						</script>
+                 </p>
+                  -->
+			</div>
+			<div data-role="footer" data-theme="c">
+				<p class="copyright">Copyright ⓒ <a href="mailto:console.log.helloworld@gmail.com">console.log</a> All right reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>
